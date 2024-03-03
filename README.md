@@ -16,10 +16,10 @@ Installing using easy_install : sudo easy_install pip
       
 
 
-To setup PyGame : 
-Windows : pip install pygame
-Linux : sudo apt-get install idle pygame
-MacOS : 
+To setup PyGame 
+Windows - pip install pygame
+Linux - sudo apt-get install idle pygame
+MacOS - 
 Install Homebrew (if not installed): /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew install python
 pip install pygame
