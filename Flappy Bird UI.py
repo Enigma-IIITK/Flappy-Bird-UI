@@ -8,12 +8,15 @@ pygame.font.init()
 
 WIN_WID = 500
 WIN_HEIGHT = 700
-
-
-Bird_Img = pygame.transform.scale2x(pygame.image.load(os.path.join("bird.png")))
-Pipe_Img = pygame.transform.scale2x(pygame.image.load(os.path.join("pipe.png")))
-Base_Img = pygame.transform.scale2x(pygame.image.load(os.path.join("base.png")))
-BG_Img = pygame.transform.scale2x(pygame.image.load(os.path.join("BG.png")))
+image_folder = "Images"
+bird_image_path = os.path.join(image_folder, "bird.png")
+Bird_Img = pygame.transform.scale2x(pygame.image.load(bird_image_path))
+pipe_image_path = os.path.join(image_folder, "pipe.png")
+Pipe_Img = pygame.transform.scale2x(pygame.image.load(pipe_image_path))
+base_image_path = os.path.join(image_folder, "base.png")
+Base_Img = pygame.transform.scale2x(pygame.image.load(base_image_path))
+bg_image_path = os.path.join(image_folder, "BG.png")
+BG_Img = pygame.transform.scale2x(pygame.image.load(bg_image_path))
 
 bird_img_scaled = pygame.transform.scale(Bird_Img, (Bird_Img.get_width() * 0.75, Bird_Img.get_height() * 0.75))
 bird_Img = bird_img_scaled
